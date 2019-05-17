@@ -1,2 +1,2 @@
-# BioTool v1.0
-A python library of miscellaneous useful bioinformatic tools.
+# BioGate v1.0
+A gateway and multitool for bioinformatic data.
