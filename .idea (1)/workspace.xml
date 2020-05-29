@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0921fd77-f19b-4f86-9705-5cfbe70ebc75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/biogate/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/align.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/configuration/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/configuration/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/ibio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/online/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/online/align.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/online/blast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/online/dbs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/online/dbs/ncbi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/parse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/parse/fasta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/parse/fastq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/parse/pdb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/parse/reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/parse/table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/parse/writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/seq/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/seq/bioseq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/seq/dna.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/seq/peptide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/seq/resolve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/seq/rna.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biogate/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectId" id="1PBq95JfWkcitW8tGGuN4ZWTGLP" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dorge\Google Drive\Pycharm\biogate\biogate\online\dbs" />
+      <recent name="C:\Users\dorge\Google Drive\Pycharm\biogate\biogate" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ncbi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="biogate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/biogate/online/dbs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/biogate/online/dbs/ncbi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ncbi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0921fd77-f19b-4f86-9705-5cfbe70ebc75" name="Default Changelist" comment="" />
+      <created>1558036055140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558036055140</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
