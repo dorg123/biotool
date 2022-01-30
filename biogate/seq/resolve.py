@@ -1,21 +1,30 @@
-"""
-Name        resolve.py
-Purpose     A helper module with resolving functions in the reverse direction from the main dogma
-Author      Dor Genosar (dor.genosar@outlook.com)
-Change log
-    2019 03 24  Created
-"""
+import typing
+from functools import reduce
 
-from biogate.seq.peptide import Peptide
-from biogate.seq.rna import RNA
 from biogate.seq.dna import DNA
-from typing import Sequence
+from biogate.seq.rna import RNA
 
 
 def reverse_transcript(rna: RNA) -> DNA:
     return DNA(rna.replace('U', 'T').data)
 
 
-def resolve_codons(peptide: Peptide) -> Sequence[RNA]:
-    options = [Peptide.codons[aa] for aa in peptide]
+def parametrize(options: typing.Sequence[typing.Sequence]) -> typing.Sequence:
+    maximum = [len(option) for option in options]
+    maximum_options = reduce(lambda current, item: current * item, maximum)
+    counter = [0] * len(options)
+    output_sequences = []
 
+    def increment_counter():
+        counter[0] += 1
+        for i in range(len(options)):
+            if counter[i] < maximum[i]:
+                break
+            counter[i] = 0
+            counter[i + 1] += 1
+
+    for _ in range(maximum_options):
+        output_sequences.append([options[i] for i in counter])
+        increment_counter()
+
+    return output_sequences
