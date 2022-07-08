@@ -1,9 +1,6 @@
 import requests
-import xml.etree.ElementTree as xml
 import json
-import ntplib
 from datetime import datetime
-from pytz import timezone
 import biogate
 
 

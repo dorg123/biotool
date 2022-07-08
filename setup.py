@@ -10,5 +10,5 @@ setup(
     author_email='dor.genosar@outlook.com',
     description='A gateway and multitool for bioinformatic data',
     entry_points={'console_scripts': ['ibio=biogate.ibio:main']},
-    install_requires=['ipython', 'mongoengine', 'pymongo', 'requests', 'pytz', 'ntplib', 'traitlets']
+    install_requires=['ipython', 'requests', 'traitlets']
 )
